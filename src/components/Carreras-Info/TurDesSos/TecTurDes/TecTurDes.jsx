@@ -18,7 +18,7 @@ const TecTurDes = () => {
       </div>
       <div className='green-bar-car'></div>
 
-      <div className="novedades-separator-custom" style={{color: '#065C4E'}}>
+      <div className="novedades-separator-custom">
         <div className="container-fluid">
           <h3 className="novedades-title-custom">¿POR QUÉ ESTUDIAR ESTA TECNICATURA?</h3>
         </div>
