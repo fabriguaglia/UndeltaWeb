@@ -1,19 +1,26 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import "../../Carreras-Info.css"
 
 const TecCieDat = () => {
+  const navigate = useNavigate();
+
+  const handleIncripcion = () => {
+    navigate('/inscripcion');
+  };
+
   return (
     <div className="carreras-info-container">
       <div className="section-carreras-info">
         <div className="overlay-carreras container-fluid">
-          <h1 className="title-carreras text-fluid">TECNICATURA EN CIENCIA DE DATOS</h1>
+          <h1 className="title-carreras text-fluid">TECNICATURA UNIVERSITARIA EN CIENCIA DE DATOS</h1>
         </div>
       </div>
       <div className='green-bar-car'></div>
 
       <div className="novedades-separator-custom">
         <div className="container-fluid">
-          <h3 className="novedades-title-custom">¿POR QUÉ ESTUDIAR ESTA CARRERA?</h3>
+          <h3 className="novedades-title-custom">¿POR QUÉ ESTUDIAR ESTA TECNICATURA?</h3>
         </div>
       </div>
 
@@ -27,12 +34,7 @@ const TecCieDat = () => {
               </svg>
             </div>
             <div className="intro-text">
-              La <strong>Ciencia de Datos</strong> es una disciplina clave en la era digital: 
-              permite transformar grandes volúmenes de datos en conocimiento útil para 
-              tomar decisiones estratégicas en ámbitos como la salud, el comercio, la industria o el 
-              gobierno. Estudiá esta carrera y convertite en un profesional capaz de dar 
-              respuesta a las necesidades de nuestra sociedad, empresas y organismos a través de la construcción de modelos de <strong>Ciencia de 
-              Datos</strong>.
+Los datos están en todas partes: desde las redes sociales hasta la salud, el comercio o el transporte. Esta Tecnicatura te prepara para transformar grandes volúmenes de datos en información útil para resolver problemas reales y tomar decisiones informadas. Vas a formarte como técnico/a con capacidades prácticas para trabajar en proyectos de Ciencia de Datos en equipos multidisciplinario.
             </div>
           </div>
         </div>
@@ -47,9 +49,7 @@ const TecCieDat = () => {
       <section className="objective-section">
         <div className="container">
           <p className="objective-text">
-            Formar profesionales capaces de investigar, diseñar, implementar y aplicar métodos analíticos y 
-            computacionales para extraer conocimiento a partir de grandes volúmenes de datos, orientados a la 
-            toma de decisiones en entornos multidisciplinarios.
+Formar profesionales técnicos/as capacitados/as en la aplicación práctica de técnicas avanzadas de Ciencia de Datos, con la capacidad de abordar una amplia variedad de problemas complejos en el diseño e implementación de modelos de análisis de datos.
           </p>
         </div>
       </section>
@@ -65,7 +65,7 @@ const TecCieDat = () => {
                 </svg>
               </div>
               <div className="info-title">Título que otorga:</div>
-              <div className="info-value">Técnico/a en Ciencia de Datos</div>
+              <div className="info-value">Técnico/a Universitario/a en Ciencia de Datos</div>
             </div>
 
             <div className="info-card">
@@ -75,7 +75,7 @@ const TecCieDat = () => {
                 </svg>
               </div>
               <div className="info-title">Duración:</div>
-              <div className="info-value">4 años (8 cuatrimestres)</div>
+              <div className="info-value">2 años y medio (5 cuatrimestres)</div>
             </div>
 
             <div className="info-card">
@@ -85,7 +85,7 @@ const TecCieDat = () => {
                 </svg>
               </div>
               <div className="info-title">Total de horas:</div>
-              <div className="info-value">2.164 horas</div>
+              <div className="info-value">1.280 horas</div>
             </div>
 
             <div className="info-card">
@@ -105,7 +105,7 @@ const TecCieDat = () => {
       <section className="cta-section">
         <div className="container">
           <div className="cta-buttons">
-            <button className="btn btn-primary">Inscribirse</button>
+            <button className="btn btn-primary" onClick={handleIncripcion} style={{cursor: 'pointer'}}>Inscribirse</button>
             <button className="btn btn-secondary">Plan de Estudio</button>
           </div>
         </div>
