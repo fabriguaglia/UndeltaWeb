@@ -1,19 +1,19 @@
-.carreras-info-container {
+.tec-carreras-info-container {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   background-color: #f5f5f5;
 }
-.carreras-container {
+.tec-carreras-container {
   width: 100%;
   min-height: 100vh;
 }
 
 /* Hero Section */
-.section-carreras-info {
+.tec-section-carreras-info {
   position: relative;
   height: 50vh;
   min-height: 400px;
-  background-image: url('infocar.png');
+  background-image: url('tecnicaturas.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -24,7 +24,7 @@
 }
 
 /* Estilo para imagen real de fondo */
-.section-carreras::before {
+.tec-section-carreras::before {
   content: '';
   position: absolute;
   top: 0;
@@ -35,14 +35,14 @@
   z-index: 1;
 }
 
-.overlay-carreras {
+.tec-overlay-carreras {
   position: relative;
   z-index: 2;
   text-align: center;
   padding: 0 20px;
 }
 
-.title-carreras {
+.tec-title-carreras {
   font-size: 4rem;
   font-weight: bold;
   letter-spacing: 0.1em;
@@ -51,13 +51,13 @@
 }
 
 /* Container */
-.container-carreras {
+.tec-container-carreras {
   margin: auto;
   padding: 0;
 }
 /* Hero Section */
-car-section {
-  background-image: (url("carinfo.png"));
+.tec-car-section {
+  background-image: (url("tecnicaturas.png"));
   background-size: cover;
   background-position: center;
   height: 550px;
@@ -67,7 +67,7 @@ car-section {
   color: white;
 }
 
-.hero-content {
+.tec-hero-content {
   position: relative;
   z-index: 2;
   max-width: 800px;
@@ -75,7 +75,7 @@ car-section {
   padding: 0 20px;
 }
 
-.hero-title {
+.tec-hero-title {
   font-size: 3.5rem;
   font-weight: bold;
   margin-bottom: 30px;
@@ -83,8 +83,8 @@ car-section {
   letter-spacing: 2px;
 }
 
-.hero-subtitle {
-  background-color: #003B55;
+.tec-hero-subtitle {
+  background-color: #73a33b;
   color: white;
   padding: 15px 30px;
   font-size: 1.2rem;
@@ -95,26 +95,26 @@ car-section {
 }
 
 /* Content Section */
-.content-section {
+.tec-content-section {
   background: white;
   padding: 60px 0;
 }
 
-.container {
+.tec-container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
-.intro-content {
+.tec-intro-content {
   display: flex;
   align-items: center;
   gap: 40px;
   margin-bottom: 60px;
 }
 
-.icon-container {
-  background: #003B55;
+.tec-icon-container {
+  background: #73a33b;
   border-radius: 50%;
   width: 150px;
   height: 150px;
@@ -124,13 +124,13 @@ car-section {
   flex-shrink: 0;
 }
 
-.icon-container svg {
+.tec-icon-container svg {
   width: 80px;
   height: 80px;
   fill: white;
 }
 
-.intro-text {
+.tec-intro-text {
   flex: 1;
   font-size: 1.1rem;
   line-height: 1.8;
@@ -139,18 +139,18 @@ car-section {
 }
 
 /* Objective Section */
-.objective-section {
+.tec-objective-section {
   padding: 50px 0;
 }
 
-.objective-title {
+.tec-objective-title {
   font-size: 2rem;
   margin-bottom: 30px;
   text-transform: uppercase;
   font-weight: bold;
 }
 
-.objective-text {
+.tec-objective-text {
   font-size: 1.1rem;
   line-height: 1.8;
   text-align: center;
@@ -159,18 +159,18 @@ car-section {
 }
 
 /* Info Section */
-.info-section {
+.tec-info-section {
   background: white;
   padding: 60px 0;
 }
 
-.info-grid {
+.tec-info-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 40px;
 }
 
-.info-card-carrera {
+.tec-info-card-carrera {
   background: #f8f9fa;
   padding: 30px;
   border-radius: 10px;
@@ -178,10 +178,10 @@ car-section {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-.info-icon {
+.tec-info-icon {
   width: 60px;
   height: 60px;
-  background: #73a33b !important;
+  background: #73a33b;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -189,40 +189,40 @@ car-section {
   margin: 0 auto 20px;
 }
 
-.info-icon svg {
+.tec-info-icon svg {
   width: 30px;
   height: 30px;
   fill: white;
 }
 
-.info-title {
+.tec-info-title {
   font-size: 1.1rem;
   font-weight: bold;
   margin-bottom: 10px;
   color: #333;
 }
 
-.info-value {
+.tec-info-value {
   font-size: 1.3rem;
   font-weight: bold;
-  color: #003B55;
+  color: #73a33b;
 }
 
 /* CTA Section */
-.cta-section {
+.tec-cta-section {
   background: white;
   padding: 40px 0;
   text-align: center;
 }
 
-.cta-buttons {
+.tec-cta-buttons {
   display: flex;
   gap: 20px;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.btn {
+.tec-btn {
   padding: 15px 40px;
   border: none;
   border-radius: 5px;
@@ -233,89 +233,89 @@ car-section {
   transition: all 0.3s ease;
 }
 
-.btn-primary {
-  background: #003B55;
+.tec-btn-primary {
+  background: #73a33b;
   color: white;
 }
 
-.btn-primary:hover {
-  background: #2d6b7a;
+.tec-btn-primary:hover {
+  background: #065C4E;
   transform: translateY(-2px);
 }
 
-.btn-secondary {
-  background: #003B55;
+.tec-btn-secondary {
+  background: #73a33b;
   color: white;
 }
 
-.btn-secondary:hover {
-  background: #73a33b;
+.tec-btn-secondary:hover {
+  background: #065C4E;
   transform: translateY(-2px);
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
-  .hero-title {
+  .tec-hero-title {
     font-size: 2.5rem;
   }
 
-  .intro-content {
+  .tec-intro-content {
     flex-direction: column;
     text-align: center;
   }
 
-  .icon-container {
+  .tec-icon-container {
     width: 120px;
     height: 120px;
   }
 
-  .info-grid {
+  .tec-info-grid {
     grid-template-columns: 1fr;
     gap: 20px;
   }
 
-  .cta-buttons {
+  .tec-cta-buttons {
     flex-direction: column;
     align-items: center;
   }
 
-  .btn {
+  .tec-btn {
     width: 100%;
     max-width: 300px;
   }
 
-  .hero-subtitle {
+  .tec-hero-subtitle {
     font-size: 1rem;
     padding: 12px 20px;
   }
 
-  .objective-title {
+  .tec-objective-title {
     font-size: 1.5rem;
   }
 
-  .intro-text {
+  .tec-intro-text {
     text-align: center;
   }
 }
 
 @media (max-width: 480px) {
-  .hero-title {
+  .tec-hero-title {
     font-size: 2rem;
   }
 
-  .container {
+  .tec-container {
     padding: 0 15px;
   }
 
-  .content-section {
+  .tec-content-section {
     padding: 40px 0;
   }
 
-  .info-section {
+  .tec-info-section {
     padding: 40px 0;
   }
 
-  .objective-section {
+  .tec-objective-section {
     padding: 40px 0;
   }
 }
