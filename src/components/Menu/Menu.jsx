@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom'; 
-import Videodelta from "./UNDelta_apertura_web_v3-horiz-BAJA.mp4";
+import Videodelta from "./UNDelta apertura web_v3-horiz-BAJA.gif";
 import './Menu.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
