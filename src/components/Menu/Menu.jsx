@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom'; 
-import Videodelta from "./UNDelta apertura web_v3-horiz-BAJA.gif";
+import Videodelta from "./UNDelta apertura web_v3-horiz-ALTA.gif";
 import './Menu.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -61,14 +61,14 @@ const novedades = [
   return (
     <>
       <div className="video-container">
-        <video
+        <img
           src={Videodelta}
           autoPlay
           muted
           playsInline
           loop
           className="fullscreen-video"
-        ></video>
+        ></img>
       </div>
       
       <div className="container-fluid">
